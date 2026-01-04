@@ -1,0 +1,49 @@
+{
+  "config": {
+    "baseDir": "/games",
+    "gamePathTemplate": "{base}/{dir}/{file}",
+    "thumbnailPathTemplate": "{base}/{dir}/{thumb}"
+  },
+  "games": [
+    {
+      "id": "block-puzzle",
+      "title": "Block Puzzle",
+      "description": "Fit pieces to complete lines. Simple and addictive.",
+      "category": "puzzle",
+      "dir": "block-puzzle",
+      "file": "index.html",
+      "thumbnail": "thumbnail.png",
+      "target": "_blank"
+    },
+    {
+      "id": "space-blaster",
+      "title": "Space Blaster",
+      "description": "Fast-paced shooter with powerups and leaderboards.",
+      "category": "action",
+      "dir": "space-blaster",
+      "file": "index.html",
+      "thumbnail": "thumbnail.png",
+      "target": "_blank"
+    },
+    {
+      "id": "castle-tactician",
+      "title": "Castle Tactician",
+      "description": "Turn-based strategy: build, defend, conquer.",
+      "category": "strategy",
+      "dir": "castle-tactician",
+      "file": "index.html",
+      "thumbnail": "thumbnail.png",
+      "target": "_blank"
+    },
+    {
+      "id": "retro-racer",
+      "title": "Retro Racer",
+      "description": "Arcade-style racing with pixel art tracks.",
+      "category": "action",
+      "dir": "retro-racer",
+      "file": "index.html",
+      "thumbnail": "thumbnail.png",
+      "target": "_blank"
+    }
+  ]
+}

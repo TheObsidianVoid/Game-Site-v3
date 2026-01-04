@@ -1,0 +1,70 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#06b6d4;
+  --muted:#94a3b8;
+  --text:#e6eef6;
+  --radius:10px;
+  --gap:1rem;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#071028 0%,#061022 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.35;
+}
+
+/* layout */
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+.site-header{padding:1.25rem 0}
+.site-title{margin:0;font-size:1.5rem}
+.site-subtitle{margin:0;color:var(--muted);font-size:.95rem}
+
+/* controls */
+.controls{display:flex;gap:.5rem;margin-top:.75rem;flex-wrap:wrap}
+.controls input[type="search"], .controls select{
+  padding:.5rem .75rem;border-radius:8px;border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.02);color:var(--text);min-width:160px;
+}
+.visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+
+/* grid */
+.games-grid{list-style:none;padding:0;margin:1.25rem 0;display:grid;gap:var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.game-card{
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  border:1px solid rgba(255,255,255,0.03);
+  padding:.5rem;border-radius:var(--radius);
+  transition:transform .15s ease, box-shadow .15s ease;
+  display:block;
+  overflow:hidden;
+}
+.game-link{display:flex;gap:.6rem;align-items:center;text-decoration:none;color:inherit}
+.game-thumb{width:84px;height:64px;object-fit:cover;border-radius:6px;flex-shrink:0}
+.game-info{flex:1;min-width:0}
+.game-title{margin:0;font-size:1.02rem}
+.game-desc{margin:.25rem 0 0;color:var(--muted);font-size:.88rem}
+
+/* hover / focus */
+.game-card:focus-within, .game-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(2,6,23,0.6)}
+.game-link:focus{outline:3px solid rgba(6,182,212,0.15);border-radius:6px}
+
+/* footer */
+.site-footer{padding:1.25rem 0;color:var(--muted);font-size:.9rem;border-top:1px solid rgba(255,255,255,0.02)}
+
+/* notice */
+.notice{background:rgba(255,255,255,0.03);border-radius:8px;padding:.6rem .8rem;color:var(--muted);font-size:.95rem;margin-bottom:1rem}
+.js-only{display:none}
+
+/* small screens */
+@media (max-width:420px){
+  .game-thumb{width:72px;height:54px}
+}

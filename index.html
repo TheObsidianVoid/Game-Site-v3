@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Games Portal</title>
+  <meta name="description" content="Play web games — fast access to all games on this site." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">My Games Portal</h1>
+      <p class="site-subtitle">Quick access to all web games on this site</p>
+
+      <form id="controls" class="controls" role="search" aria-label="Search and filter games">
+        <label for="search" class="visually-hidden">Search games</label>
+        <input id="search" name="search" type="search" placeholder="Search games…" aria-label="Search games" />
+
+        <label for="category" class="visually-hidden">Filter by category</label>
+        <select id="category" name="category" aria-label="Filter games by category">
+          <option value="">All categories</option>
+        </select>
+
+        <label for="directory" class="visually-hidden">Filter by directory</label>
+        <select id="directory" name="directory" aria-label="Filter games by directory">
+          <option value="">All directories</option>
+        </select>
+      </form>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <p class="notice js-only" aria-hidden="true">Interactive features enabled.</p>
+
+    <noscript>
+      <p class="notice">JavaScript is disabled — enable JavaScript to see the dynamic games list. You can still browse the /games directory directly to find games.</p>
+    </noscript>
+
+    <section aria-labelledby="games-heading">
+      <h2 id="games-heading" class="visually-hidden">Games</h2>
+
+      <!-- The JavaScript will populate this list from games.json -->
+      <ul id="games" class="games-grid" role="list" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> My Games Portal — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
