@@ -6,8 +6,8 @@
   },
   "games": [
     {
-      "id": "block-puzzle",
-      "title": "Block Puzzle",
+      "id": "celeste",
+      "title": "celeste",
       "description": "Fit pieces to complete lines. Simple and addictive.",
       "category": "puzzle",
       "dir": "rando's/celeste",
