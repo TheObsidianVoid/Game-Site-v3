@@ -16,13 +16,13 @@
       "target": "_blank"
     },
     {
-      "id": "space-blaster",
-      "title": "Space Blaster",
-      "description": "Fast-paced shooter with powerups and leaderboards.",
+      "id": "resent-eaglercraft",
+      "title": "ealercraft resent",
+      "description": "resent client",
       "category": "action",
-      "dir": "space-blaster",
+      "dir": "eaglercrafts/online-mc",
       "file": "index.html",
-      "thumbnail": "thumbnail.png",
+      "thumbnail": "icon.png",
       "target": "_blank"
     },
     {
