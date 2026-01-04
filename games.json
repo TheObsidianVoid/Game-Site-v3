@@ -36,13 +36,13 @@
       "target": "_blank"
     },
     {
-      "id": "retro-racer",
-      "title": "Retro Racer",
-      "description": "Arcade-style racing with pixel art tracks.",
-      "category": "action",
-      "dir": "retro-racer",
+      "id": "cookieclicker",
+      "title": "cookie clicker",
+      "description": "classic game about clicking cookies and mabye taking over the world.",
+      "category": "clicker",
+      "dir": "my favs/cookieclicker",
       "file": "index.html",
-      "thumbnail": "thumbnail.png",
+      "thumbnail": "img/farm.png",
       "target": "_blank"
     }
   ]
