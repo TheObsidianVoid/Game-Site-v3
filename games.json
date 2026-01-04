@@ -26,12 +26,12 @@
       "target": "_blank"
     },
     {
-      "id": "castle-tactician",
-      "title": "Castle Tactician",
-      "description": "Turn-based strategy: build, defend, conquer.",
-      "category": "strategy",
-      "dir": "castle-tactician",
-      "file": "index.html",
+      "id": "geomdash",
+      "title": "geomity dash",
+      "description": "cube based jumping game made by robtop.",
+      "category": "parkour",
+      "dir": "my favs/geomdash",
+      "file": "geom.html",
       "thumbnail": "thumbnail.png",
       "target": "_blank"
     },
