@@ -2,7 +2,7 @@
   "config": {
     "baseDir": "/games",
     "gamePathTemplate": "{base}/{dir}/{file}",
-    "thumbnailPathTemplate": "{base}/{thumb}"
+    "thumbnailPathTemplate": "{base}/{dir}/{thumb}"
   },
   "games": [
     {
@@ -22,7 +22,7 @@
       "category": "sandbox",
       "dir": "eaglercrafts/PeytonPlayz595 Shadow-4.0 main javascript/S",
       "file": "Shadow_Client_en_US.html",
-      "thumbnail": "eaglercrafts/shawdow/cover.svg",
+      "thumbnail": "cover.svg",
       "target": "_blank"
     },
     {
