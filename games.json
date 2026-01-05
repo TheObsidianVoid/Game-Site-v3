@@ -16,13 +16,13 @@
       "target": "_blank"
     },
     {
-      "id": "resent-eaglercraft",
-      "title": "eaglercraft resent",
-      "description": "resent client",
+      "id": "shadow-eaglercraft",
+      "title": "eaglercraft shadow",
+      "description": "just eaglercraft but with optifine",
       "category": "sandbox",
-      "dir": "eaglercrafts/online-mc",
+      "dir": "eaglercrafts/shadow",
       "file": "index.html",
-      "thumbnail": "logo.png",
+      "thumbnail": "cover.svg",
       "target": "_blank"
     },
     {
