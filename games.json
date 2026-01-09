@@ -88,11 +88,21 @@
       {
       "id": "btd6",
       "title": "ballons td6",
-      "description": "a fun modern tower defence game",
+      "description": "a fun modern tower defence game(press close and is still laggy even on my good pc so dont expect much :(",
       "category": "tower defence",
       "dir": "rando's/btd6",
       "file": "index.html",
       "thumbnail": "logo.jpg",
+      "target": "_blank"
+    },
+       {
+      "id": "rbretrobowl",
+      "title": "retrobowl",
+      "description": "a foot ball game i think (not that into sports)",
+      "category": "sports",
+      "dir": "rando's/retrobowl",
+      "file": "index.html",
+      "thumbnail": "retrobowl.ico",
       "target": "_blank"
     }
   ]
