@@ -74,6 +74,16 @@
       "file": "index.html",
       "thumbnail": "icon.png",
       "target": "_blank"
+    },
+           {
+      "id": "flappy bird",
+      "title": "flappy bird",
+      "description": "old classic web game",
+      "category": "infinte",
+      "dir": "rando's/flappybird",
+      "file": "index.html",
+      "thumbnail": "icon.png",
+      "target": "_blank"
     }
   ]
 }
