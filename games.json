@@ -88,7 +88,7 @@
       {
       "id": "btd6",
       "title": "ballons td6",
-      "description": "a fun modern tower defence game(press close and is still laggy even on my good pc so dont expect much :(",
+      "description": "a fun modern tower defence game{press close and is still laggy even on my good pc so dont expect much :(  }",
       "category": "tower defence",
       "dir": "rando's/btd6",
       "file": "index.html",
@@ -103,6 +103,26 @@
       "dir": "rando's/retrobowl",
       "file": "index.html",
       "thumbnail": "retrobowl.ico",
+      "target": "_blank"
+    },
+         {
+      "id": "stickman-hook",
+      "title": "stickman hook",
+      "description": "a game about swinging on ropes",
+      "category": "parkour",
+      "dir": "rando's/stickman-hook",
+      "file": "index.html",
+      "thumbnail": "icon.jpg",
+      "target": "_blank"
+    },
+      {
+      "id": "fruitninja",
+      "title": "fruitninja",
+      "description": "a old game but still fun",
+      "category": "addictive",
+      "dir": "rando's/fruitninja",
+      "file": "index.html",
+      "thumbnail": "FruitNinjaTeaser.jpg",
       "target": "_blank"
     }
   ]
