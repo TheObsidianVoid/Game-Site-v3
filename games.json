@@ -6,13 +6,23 @@
   },
   "games": [
     {
-      "id": "celeste",
-      "title": "celeste",
-      "description": "Fit pieces to complete lines. Simple and addictive.",
+      "id": "celestepico",
+      "title": "celeste pico8",
+      "description": "a rage game so get mad at it not me :)",
       "category": "puzzle",
       "dir": "rando's/celeste",
       "file": "index.html",
       "thumbnail": "icon.png",
+      "target": "_blank"
+    },
+    {
+      "id": "SMB",
+      "title": "super smash bros",
+      "description": "A old Nitendo game",
+      "category": "coop",
+      "dir": "nitendo/supersmashbros",
+      "file": "index.html",
+      "thumbnail": "logo.jpg",
       "target": "_blank"
     },
     {
