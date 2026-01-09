@@ -124,6 +124,16 @@
       "file": "index.html",
       "thumbnail": "FruitNinjaTeaser.jpg",
       "target": "_blank"
+    },
+          {
+      "id": "pokemonleafgreen",
+      "title": "leafgreen",
+      "description": "fun game I have played",
+      "category": "nitendo",
+      "dir": "nitendo/pokemon",
+      "file": "leafgreen/index.html",
+      "thumbnail": "logo.jpg",
+      "target": "_blank"
     }
   ]
 }
