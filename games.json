@@ -124,6 +124,16 @@
       "file": "index.html",
       "thumbnail": "FruitNinjaTeaser.jpg",
       "target": "_blank"
+    },
+       {
+      "id": "MC64NES",
+      "title": "mario cart64",
+      "description": "a old version of mario cart for the NES",
+      "category": "driving",
+      "dir": "nitendo/mario kart",
+      "file": "kart.html",
+      "thumbnail": "logo.jpg",
+      "target": "_blank"
     }
   ]
 }
