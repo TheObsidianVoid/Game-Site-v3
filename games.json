@@ -126,9 +126,9 @@
       "target": "_blank"
     },
        {
-      "id": "MC64NES",
+      "id": "MC64DS",
       "title": "mario cart64",
-      "description": "a old version of mario cart for the NES",
+      "description": "a old version of mario cart for the DS",
       "category": "driving",
       "dir": "nitendo/mario kart",
       "file": "kart.html",
