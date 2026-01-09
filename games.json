@@ -84,6 +84,16 @@
       "file": "index.html",
       "thumbnail": "icon.png",
       "target": "_blank"
+    },
+      {
+      "id": "btd6",
+      "title": "ballons td6",
+      "description": "a fun modern tower defence game",
+      "category": "tower defence",
+      "dir": "rando's/btd6",
+      "file": "index.html",
+      "thumbnail": "logo.jpg",
+      "target": "_blank"
     }
   ]
 }
