@@ -54,6 +54,16 @@
       "file": "index.html",
       "thumbnail": "icon.png",
       "target": "_blank"
+    },
+     {
+      "id": "cell-macine",
+      "title": "",
+      "description": "a fun chaotic game",
+      "category": "chaotic",
+      "dir": "rando's/cell-machine",
+      "file": "index.html",
+      "thumbnail": "icon.png",
+      "target": "_blank"
     }
   ]
 }
