@@ -56,11 +56,21 @@
       "target": "_blank"
     },
      {
-      "id": "cell-macine",
-      "title": "",
+      "id": "cell-machine",
+      "title": "cell machine",
       "description": "a fun chaotic game",
       "category": "chaotic",
       "dir": "rando's/cell-machine",
+      "file": "index.html",
+      "thumbnail": "icon.png",
+      "target": "_blank"
+    },
+       {
+      "id": "drift-boss",
+      "title": "drift boss",
+      "description": "a fun driving game",
+      "category": "fun",
+      "dir": "rando's/drift-boss",
       "file": "index.html",
       "thumbnail": "icon.png",
       "target": "_blank"
