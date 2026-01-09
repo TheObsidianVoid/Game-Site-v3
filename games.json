@@ -16,16 +16,6 @@
       "target": "_blank"
     },
     {
-      "id": "SMB",
-      "title": "super smash bros",
-      "description": "A old Nitendo game",
-      "category": "coop",
-      "dir": "nitendo/supersmashbros",
-      "file": "index.html",
-      "thumbnail": "logo.jpg",
-      "target": "_blank"
-    },
-    {
       "id": "shadow-eaglercraft",
       "title": "eaglercraft shadow",
       "description": "just eaglercraft but with optifine",
@@ -53,6 +43,16 @@
       "dir": "my favs/cookieclicker",
       "file": "index.html",
       "thumbnail": "img/farm.png",
+      "target": "_blank"
+    },
+      {
+      "id": "cuttherope",
+      "title": "cut the rope",
+      "description": "a classic mobile game ported to web(no i did not port it)",
+      "category": "coop",
+      "dir": "rando's/cuttherope",
+      "file": "index.html",
+      "thumbnail": "icon.png",
       "target": "_blank"
     }
   ]
